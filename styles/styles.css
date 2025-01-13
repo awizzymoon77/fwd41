@@ -77,3 +77,24 @@ section.warning {
 .table-custom {
 	padding: 2rem 1rem 3rem
 }
+
+a {
+	color: #8eec13;
+}
+
+a:visited {
+	color: #ec13ab;
+}
+a:hover,
+a:focus {
+	background-color: #13ec8e;
+	color: #f0f8ff;
+}
+
+a:focus {
+	outline: 1px dotted #13ec8e;
+}
+
+a:active {
+	background-color: #ec1313;
+}
