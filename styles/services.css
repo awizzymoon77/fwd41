@@ -16,4 +16,106 @@ html {
 	font-weight: 400;
 	line-height: 1.5;
 	color: rgb(40, 40, 40);
+   
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+        
+}
+
+nav ul li a {
+    color: #186115;
+    text-decoration: none;
+
+}
+
+header {
+    text-align: center;
+}
+
+a:visited {
+    color: #186115;
+}
+
+a:hover, a:focus {
+    color: #007bff;
+}
+
+a:focus {
+    outline: 2px dotted #007bff;
+}
+
+a:active {
+    color: #e7d9d9;
+    background-color: #007bff;
+}
+.services {
+    padding: 2rem 0;
+   }
+
+.services1 {
+    background-color: #17eb10;
+    padding: 1rem ;
+    margin : 1rem 0;
+    
+}
+.services1 a{
+    border-bottom: solid;
+}
+
+.Email {
+    text-align: center;
+    margin-top: 2rem;
+}
+.Email a {
+    background-color: #033505;
+    padding: 1rem ;
+    margin : 2rem ;
+    color: #b3bdbe;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+
+ }
+.customer {
+    border-radius: 50%;
+}
+
+.Images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.Images img {
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 1rem 0;
+}
+.images p {
+    text-align: center;
+}
+
+.review {
+    font-size: 14px;
+}
+
+.facebook {
+    color: #033505;
+    text-decoration: underline;
+}
+
+.customer-name {
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1.5rem;
+    background-color: #b3bdbe;
 }
